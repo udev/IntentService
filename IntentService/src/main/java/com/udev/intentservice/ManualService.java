@@ -17,7 +17,7 @@ public class ManualService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
-        Toast.makeText(getApplicationContext(), "This is a manual service!!!", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "This is a manual service!", Toast.LENGTH_LONG).show();
 
         return super.onStartCommand(intent, flags, startId);
     }
